@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.inicio {
+    background: #795548;
+    padding: 40px 50px 150px 50px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.menu img{
+    width: 100px;
+    border-radius: 30px;
+}
+
+.links_menu {
+    font-size: 20px;
+
+}
+
+.links_menu a {
+    margin: 25px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.links_menu a:hover {
+    border-bottom: 5px solid#FFC107;
+    padding-bottom: 5px;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+.apresentacao {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+
+}
+
+.texto_apresentacao {
+    width: 500px;
+
+}
+
+.titulo_apresentacao {
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+.titulo_destaque {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.botao_apresentacao {
+    padding: 10px 40px;
+    font-weight: bold;
+    color: #fff;
+    border: 2px solid #fff;
+    background: #795548;
+    margin-right: 20px;
+
+}
+
+.botao_apresentacao:hover {
+    background: #FFC107;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.cafe300 {
+    width: 400px;
+    margin-top: 50px;
+    border-radius: 30px;
+    margin-left: 40px;
+}
+
+.experimente {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    padding: 40px;
+    box-sizing: border-box
+}
+
+.torra {
+    width: 30%;
+    border: 1px solid #FFC107;
+    text-align: center;
+    align-items: center;
+    padding: 50px 0px;
+    border-radius: 15px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+
+.torra h2 {
+    font-weight: bold;
+}
+
+.torra p {
+    padding: 0px 20px;
+
+}
+
+.extra_forte,
+.torra_media,
+.torra_suave {
+    width: 150px;
+}
+
+.tabela_itens {
+    background: #f5f5f5;
+    padding-bottom: 60px;
+}
+
+.nosso_produtos {
+
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.produtos {
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 1000px;
+
+}
+
+.itens {
+
+    width: 280px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.itens img {
+    width: 250px;
+    height: 250px;
+}
+
+.itens h3 {
+    text-align: center;
+    align-items: center;
+    background: #795548;
+    padding: 10px 70px;
+    margin-left: 20px;
+}
+
+.botao_veja_mais button {
+    font-size: 18px;
+    padding: 12px 40px;
+    background: #FFC107;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.botao_veja_mais button:hover{
+    background: #daaa1c;
+    cursor: pointer;
+    transition: 1s;
+} 
+
+.botao_veja_mais {
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    width: 1000px;
+    padding: 20px;
+    text-align: center;
+    
+}
+.desconto{
+    background: #795548;
+    padding-bottom: 10px;
+}
+.botao_desconto{
+    text-align: center;
+}
+.botao_desconto button{
+    padding: 20px 40px;
+}
+
+.contato{
+    padding: 40px;
+}
+.titulo_contato{
+    font-size: 38px;
+    text-align: center;
+}
+.formulario_contato{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #FFC107;
+    padding: 40px;
+    width: 600px;
+    text-align: center;
+}
+.formulario_contato input, .formulario_contato textarea{
+    display: block;
+    margin-bottom: 30px; 
+    width: 100%;
+     padding: 10px;
+    font-size: 20px;
+    box-sizing: border-box;
+    border:2px solid #FFC107 ;
+
+}
+
+.roda_pe{
+    display: flex;
+    justify-content: space-around;
+    background: #241f1d;
+    color: #fff;
+    padding: 50px;
+    align-items: center;
+}
+
+.roda_pe img {
+    width: 100px;
+    border-radius: 30px;
+    margin-left: 130px;
+}
+
+.roda_pe_consideracao{
+    width: 30%;
+}
+.roda_pe_consideracao h3{
+    font-size: 30px;
+}
